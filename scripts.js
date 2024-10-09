@@ -12,6 +12,8 @@ document.querySelectorAll("nav ul li a").forEach((anchor) => {
     }
   });
 });
+
+
 // Função para mudar o cabeçalho ao rolar a página
 window.addEventListener("scroll", function () {
   const header = document.querySelector("header");
